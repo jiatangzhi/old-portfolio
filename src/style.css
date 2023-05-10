@@ -19,7 +19,6 @@ body {
 .container {
   background-color: #fff;
   border: 2px solid green;
-  
 }
 
 h1,
@@ -55,19 +54,28 @@ h3 {
 .navigation-links a {
   margin: 20px;
 }
-.about-section {
+.content-container {
   padding: 160px 20px;
 }
-.about-section h1 {
+.content h1 {
   font-size: 64px;
   line-height: 60px;
 }
 
-.about-section h2 {
+.content h2 {
   font-size: 18px;
   font-family: var(--default-font-family);
 }
-.about-section-content {
+.content h3 {
+  font-size: 24px;
+  font-family: var(--default-font-family);
+  margin-top: 20px 0 0;
+  line-height: 1.5;
+}
+.content p {
+    font-size: 14px;
+}
+.content {
   margin: 30px;
 }
 .btn-branding {
@@ -103,7 +111,7 @@ h3 {
   .hero {
     padding: 80px 20px;
   }
-  .about-section {
+  .content {
     text-align: center;
     padding: 0;
     margin: auto 5px;
