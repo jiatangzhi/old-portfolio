@@ -73,7 +73,7 @@ h3 {
   line-height: 1.5;
 }
 .content p {
-    font-size: 14px;
+  font-size: 14px;
 }
 .content {
   margin: 30px;
@@ -98,6 +98,31 @@ h3 {
 .email-link:hover {
   text-decoration: underline;
 }
+.logo {
+  max-width: 150px;
+}
+nav {
+  padding: 20px 0;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  padding-left: 15px;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+  transition: all 150ms ease-in-out;
+}
+nav a:hover,
+nav li .active a {
+  color: var(--branding-color);
+}
 
 @media (max-width: 900px) {
   h1 {
@@ -114,9 +139,9 @@ h3 {
   .content {
     text-align: center;
     padding: 0;
-    margin: auto 5px;
   }
-  p {
+  .project-description {
+    padding: 0;
     text-align: center;
   }
 
@@ -124,5 +149,8 @@ h3 {
     display: block;
     text-align: center;
     margin: 0 20px;
+  }
+  .nav a {
+      font-size: 12px;
   }
 }
