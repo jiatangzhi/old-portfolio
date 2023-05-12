@@ -1,7 +1,7 @@
 :root {
-  --primary-color: #6c63ff;
-  --secondary-color: #f5f2fe;
-  --branding-color: rgb(0, 162, 255);
+  --primary-color: rgb(184, 192, 222);
+  --secondary-color: rgba(233, 194, 213, 0.3);
+  --branding-color: rgb(157, 103, 182);
   --heading-font-family: sans-serif;
   --default-font-family: "Nunito", sans-serif;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
@@ -17,7 +17,7 @@ body {
 /* .container {
   /* margin: 0;
     padding: 0; */
-  /* background-color: #fff;
+/* background-color: #fff;
   border: 2px solid green; 
 } */
 
@@ -44,7 +44,7 @@ h3 {
 .hero {
   background: var(--secondary-color);
   text-align: center;
-  padding: 200px 20px 170px;
+  padding: 200px 20px 130px;
   margin: 0;
 }
 .hero p {
@@ -53,11 +53,18 @@ h3 {
   margin: 0;
   color: #272142;
 }
-.hero h2 {
+.hero h2,
+.typed-text {
   font-family: var(--heading-font-family);
   font-weight: normal;
   line-height: 1.5;
   font-size: 24px;
+}
+.typed-text-cursor {
+  color: var(--white);
+  line-height: 1.5;
+  font-size: 24px;
+  animation: typing 1s step-end infinite;
 }
 .img-fluid {
   max-width: 100%;
@@ -199,7 +206,6 @@ footer .fa-brands:hover {
   .hero {
     padding: 150px 20px 80px;
   }
-
   .content {
     text-align: center;
     padding: 0;
@@ -214,11 +220,6 @@ footer .fa-brands:hover {
     text-align: center;
     margin: 0 20px;
   }
-  /* .img-fluid {
-    display: block;
-    margin: 0;
-    text-align: center;
-  } */
   footer .contact-box {
     padding: 30px;
   }
