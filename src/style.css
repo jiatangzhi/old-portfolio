@@ -214,11 +214,13 @@ footer .fa-brands:hover {
     padding: 0;
     text-align: center;
   }
-
   .project-link {
     display: block;
     text-align: center;
     margin: 0 20px;
+  }
+  .img .me {
+    height: 25%;
   }
   footer .contact-box {
     padding: 30px;
