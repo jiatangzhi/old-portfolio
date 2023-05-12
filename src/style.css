@@ -41,7 +41,7 @@ h2 {
   font-size: 64px;
 }
 
-h4 {
+h3 {
   font-size: 48px;
 }
 
@@ -57,7 +57,7 @@ h4 {
 .hero {
   background: var(--secondary-color);
   text-align: center;
-  padding: 190px 20px 160px;
+  padding: 200px 20px 170px;
   margin: 0;
 }
 .hero p {
@@ -78,7 +78,7 @@ h4 {
   border-radius: 50%;
 }
 .content-container {
-  padding: 160px 20px;
+  padding: 120px 20px;
 }
 .content h1 {
   font-size: 64px;
@@ -200,7 +200,7 @@ footer .fa-brands:hover {
     font-size: 44px;
     text-align: center;
   }
-  h4 {
+  h3 {
     font-size: 26px;
   }
   p {
@@ -210,7 +210,7 @@ footer .fa-brands:hover {
     font-size: 12px;
   }
   .hero {
-    padding: 110px 20px 80px;
+    padding: 90px 20px 80px;
   }
   
   .content {
