@@ -95,7 +95,7 @@ h3 {
 .featured-title {
   font-size: 35px;
 }
-.view-more a{
+.view-more a {
   text-decoration: none;
   padding: 10px;
   color: var(--branding-color);
@@ -114,6 +114,12 @@ h3 {
   font-size: 20px;
   line-height: 27px;
   padding: 15px 30px;
+}
+.btn-branding:hover {
+  color: var(--branding-color);
+  border: 3px solid var(--branding-color);
+  background-color: #fff;
+  border-color: var(--branding-color);
 }
 .primary-link {
   border-radius: 4px;
@@ -137,6 +143,25 @@ h3 {
 .logo {
   max-width: 100px;
 }
+.typed-text-cursor {
+  color: var(--white);
+  animation: typing 1s step-end infinite;
+}
+
+@keyframes typing {
+  0% {
+    top: 0px;
+    width: 100px;
+  }
+  49% {
+    top: 200px;
+    width: 300px;
+  }
+  50% {
+    color: transparent;
+  }
+}
+
 nav {
   padding: 20px 0;
 }
